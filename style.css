@@ -1,0 +1,17 @@
+.box{
+    position: relative;
+}
+.box::before{
+    position: absolute;
+    content: var(--i);
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    left: 90px;
+    top: -7px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
